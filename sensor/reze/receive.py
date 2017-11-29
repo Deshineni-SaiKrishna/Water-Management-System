@@ -4,8 +4,8 @@ import imaplib
 import email
 
 ORG_EMAIL   = "@gmail.com"
-FROM_EMAIL  = "pavankalyan.d16@gmail.com"
-FROM_PWD    = "SUrya5412417"
+FROM_EMAIL  = "venkatasaikrishna14@gmail.com"
+FROM_PWD    = "Desi123"
 SMTP_SERVER = "imap.gmail.com"
 
 
@@ -35,7 +35,7 @@ def readmail():
                     email_from = msg['from']
                     print 'From : ' + email_from + '\n'
                     #print 'Subject : ' + email_subject + '\n'
-                    if email_from == 'pavankalyan.d16@gmail.com':
+                    if email_from == 'venkatasaikrishna14@gmail.com':
                         print "success"
                     else:
                         print "error"
